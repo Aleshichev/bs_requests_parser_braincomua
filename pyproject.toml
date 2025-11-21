@@ -13,7 +13,11 @@ python-dotenv = "^1.2.1"
 psycopg2-binary = "^2.9.11"
 pandas = "^2.3.3"
 beautifulsoup4 = "^4.14.2"
+lxml = "^6.0.2"
 
+
+[tool.poetry.group.dev.dependencies]
+isort = "^7.0.0"
 
 [build-system]
 requires = ["poetry-core"]
