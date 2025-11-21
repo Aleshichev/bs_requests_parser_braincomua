@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "braincomua-project-bs"
+version = "0.1.0"
+description = "\"parsing brain.com.ua with bs and requests"
+authors = ["Igor <Aleshichev.git@email.ua>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.5"
+django = "^5.2.8"
+python-dotenv = "^1.2.1"
+psycopg2-binary = "^2.9.11"
+pandas = "^2.3.3"
+beautifulsoup4 = "^4.14.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
