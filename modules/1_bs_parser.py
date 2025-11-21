@@ -1,13 +1,12 @@
 import logging
+
 import requests
 from bs4 import BeautifulSoup
+from config.headers import headers, url
 from config.logger_config import setup_logging
-from config.headers import url, headers
 from load_django import *
-from parser_app.models import Product
 from utils.get_informations import collect_product_data
-from utils.storage import save_to_database, export_to_csv
-
+from utils.storage import export_to_csv, save_to_database
 
 logger = setup_logging()
 

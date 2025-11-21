@@ -1,4 +1,5 @@
 import logging
+
 import pandas as pd
 from parser_app.models import Product
 
